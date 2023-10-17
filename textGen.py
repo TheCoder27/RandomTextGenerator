@@ -3003,6 +3003,9 @@ wordBank = [
 
 letterBank = ["a" ,"b" ,"c" ,"d" ,"e" ,"f" ,"g" ,"h" ,"i" ,"j" ,"k" ,"l" ,"m" ,"n" ,"o" ,"p" ,"q" ,"r" ,"s" ,"t" ,"u" ,"v" ,"w" ,"x" ,"y" ,"z"]
 
+amtLetter = int(input("Letter: "))
+amtWord = int(input("Word: "))
+
 def generateSentences(words):
     listOfWords = []
     generate = ""
@@ -3027,5 +3030,5 @@ def randomWord(letters):
 
     print(word)
 
-generateSentences(5)
-randomWord(12)
+generateSentences(amtWord)
+randomWord(amtLetter)
